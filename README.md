@@ -4,7 +4,7 @@ An [alpine](https://hub.docker.com/_/alpine) docker image with useful developmen
 
 ## Installed Packages
 
-In addition to what's provided by alpine base image, the following is installed:
+In addition to what's provided by alpine base image, the following is installed as a virtual package `.dev`:
 
 * bind-tools
 * curl

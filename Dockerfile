@@ -5,3 +5,4 @@ RUN apk add --no-cache \
   curl \
   jq \
   openssh-client \
+  --virtual .dev
