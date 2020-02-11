@@ -18,3 +18,19 @@ In addition to what's provided by alpine base image, the following is installed 
 * curl
 * jq
 * openssh-client
+
+## Usage
+
+### Docker
+
+```
+alias alps='docker run --rm -it testcab/alps'
+alps
+```
+
+### Kubernetes
+
+```
+alias alps='kubectl run --generator=run-pod/v1 alps --image=testcab/alps --rm -it
+alps
+```
