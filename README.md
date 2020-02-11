@@ -1,5 +1,8 @@
 # testcab/alps
 
+[![Docker image size](https://badgen.net/docker/size/testcab/alps)](https://hub.docker.com/r/testcab/alps)
+[![Travis build](https://badgen.net/travis/testcab/docker-alps)](https://travis-ci.org/testcab/docker-alps)
+
 An [alpine](https://hub.docker.com/_/alpine) docker image with useful development tools pre-installed.
 
 ## Default Shell
