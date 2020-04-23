@@ -20,6 +20,10 @@ In addition to what's provided by alpine base image, the following is installed 
 * jq
 * openssh-client
 
+And the following executable is added to `/usr/local/bin`:
+
+* kubectl
+
 ## Usage
 
 ### Docker
