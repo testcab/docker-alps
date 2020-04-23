@@ -16,6 +16,7 @@ In addition to what's provided by alpine base image, the following is installed 
 * bash
 * bind-tools
 * curl
+* httpie
 * jq
 * openssh-client
 
