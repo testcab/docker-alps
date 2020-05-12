@@ -19,6 +19,7 @@ In addition to what's provided by alpine base image, the following is installed 
 * httpie
 * jq
 * openssh-client
+* tini
 
 And the following executable is added to `/usr/local/bin`:
 
