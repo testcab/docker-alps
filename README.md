@@ -5,6 +5,10 @@
 
 An [alpine](https://hub.docker.com/_/alpine) docker image with useful development tools pre-installed.
 
+## Supported tags and respective `Dockerfile` links
+
+* [`1.0.0`, `1.0`, `1`, `latest`](https://github.com/testcab/docker-alps/blob/master/Dockerfile)
+
 ## Default Shell
 
 The default shell has been changed to `/bin/bash` from `/bin/sh`.
