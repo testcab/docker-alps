@@ -2,6 +2,8 @@ FROM alpine
 
 WORKDIR /root
 
+RUN mkdir .ssh && chmod 700 .ssh
+
 RUN apk add --no-cache \
   bash \
   bind-tools \
