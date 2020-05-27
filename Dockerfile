@@ -1,5 +1,7 @@
 FROM alpine
 
+WORKDIR /root
+
 RUN apk add --no-cache \
   bash \
   bind-tools \
