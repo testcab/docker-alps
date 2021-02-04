@@ -26,6 +26,8 @@ In addition to what's provided by alpine base image, the following is installed 
 * curl
 * httpie
 * jq
+* mariadb-client
+* mysql-client
 * openssh-client
 * tini
 

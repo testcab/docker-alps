@@ -10,6 +10,8 @@ RUN apk add --no-cache \
   curl \
   httpie \
   jq \
+  mariadb-client \
+  mysql-client \
   openssh-client \
   tini \
   --virtual .dev
