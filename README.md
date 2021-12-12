@@ -48,6 +48,6 @@ alps
 ### Kubernetes
 
 ```
-alias alps='kubectl run --generator=run-pod/v1 alps --image=testcab/alps --rm -it
+alias alps='kubectl run alps --image=testcab/alps --rm -it
 alps
 ```
