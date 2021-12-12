@@ -1,4 +1,6 @@
-FROM alpine
+ARG VERSION=latest
+
+FROM alpine:$VERSION
 
 WORKDIR /root
 
