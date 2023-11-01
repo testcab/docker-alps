@@ -1,3 +1,5 @@
 #!/bin/sh -x
 
-docker push testcab/alps
+dirname=$(dirname "$0")
+
+"$dirname"/build --push

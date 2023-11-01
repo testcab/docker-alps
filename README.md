@@ -7,7 +7,8 @@ An [alpine](https://hub.docker.com/_/alpine) docker image with useful developmen
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`2.0.0`, `2.0`, `2`, `latest`](https://github.com/testcab/docker-alps/blob/master/Dockerfile), based on `alpine:3.15`.
+* [`3.0.0`, `3.0`, `3`, `latest`](https://github.com/testcab/docker-alps/blob/main/Dockerfile), based on `alpine:3.18`, amd64 and arm64 multi-arch image.
+* [`2.0.0`, `2.0`, `2`](https://github.com/testcab/docker-alps/blob/2/Dockerfile), based on `alpine:3.15`, EOL now.
 * [`1.0.0`, `1.0`, `1`](https://github.com/testcab/docker-alps/blob/1/Dockerfile), based on `alpine:3.11.6`, EOL now.
 
 ## Default Shell

@@ -2,4 +2,8 @@
 
 dirname=$(dirname "$0")
 
-docker build "$dirname" -t testcab/alps
+docker buildx build \
+  "$dirname" \
+  --platform linux/amd64,linux/arm64 \
+  -t testcab/alps \
+  "$@"
