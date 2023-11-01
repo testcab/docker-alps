@@ -29,6 +29,7 @@ In addition to what's provided by alpine base image, the following is installed 
 * jq
 * mariadb-client
 * mysql-client
+* nfs-utils
 * openssh-client
 * tini
 

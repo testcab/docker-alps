@@ -14,6 +14,7 @@ RUN apk add --no-cache \
   jq \
   mariadb-client \
   mysql-client \
+  nfs-utils \
   openssh-client \
   tini \
   --virtual .dev
