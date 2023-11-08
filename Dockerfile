@@ -10,6 +10,7 @@ RUN apk add --no-cache \
   bash \
   bind-tools \
   curl \
+  file \
   httpie \
   jq \
   mariadb-client \
